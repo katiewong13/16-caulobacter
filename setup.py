@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 
-with open("16-caulobacter/__init__.py", "r") as f:
+with open("16-caulobacter-dir/__init__.py", "r") as f:
     init = f.readlines()
 
 for line in init:
