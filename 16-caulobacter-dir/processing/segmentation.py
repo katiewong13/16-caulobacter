@@ -1,39 +1,3 @@
-#Processing
-
-import glob
-import os
-
-import numpy as np
-import pandas as pd
-
-# Image processing tools
-import skimage
-import skimage.feature
-import skimage.io
-import skimage.filters
-import skimage.filters.rank
-import skimage.segmentation
-import skimage.morphology
-
-import scipy.ndimage
-
-
-import bebi103
-
-import colorcet
-
-import panel as pn
-pn.extension()
-
-import bokeh
-bokeh.io.output_notebook()
-
-import holoviews as hv
-hv.extension('bokeh')
-bebi103.hv.set_defaults()
-
-
-
 # Final choice of segmentation
 def bacteria_thresh(im):
     '''Returns plots of the original image and thresholded images of the image provided.

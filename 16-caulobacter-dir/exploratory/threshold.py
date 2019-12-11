@@ -1,28 +1,5 @@
 # Exploration for Thresholding
 
-import numpy as np
-
-# Image processing tools
-import skimage
-import skimage.feature
-import skimage.io
-import skimage.filters
-import skimage.filters.rank
-import skimage.segmentation
-import skimage.morphology
-
-import scipy.ndimage
-
-import bebi103
-
-import bokeh
-bokeh.io.output_notebook()
-
-import holoviews as hv
-hv.extension('bokeh')
-bebi103.hv.set_defaults()
-
-
 # Look through lal the images
 def display_image(frame = 0):
     '''Displays the image at the frame dictated.'''
